@@ -123,4 +123,6 @@ if __name__ == '__main__':
     threading.Thread(target=socket_server, daemon=True).start()
 
     # Start Flask server in the main thread
-    app.run(port=3001, debug=True)
+    app.run(port=6000, debug=True)
+
+
